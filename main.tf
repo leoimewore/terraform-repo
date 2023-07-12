@@ -17,7 +17,7 @@ source ="./networking-module"
 
 
 resource "aws_instance" "myec2" {
-    ami = "ami-053b0d53c279acc90"
+    ami = "ami-069d73f3235b535bd"
     instance_type = "t2.micro"
     subnet_id = module.myvpc.subnet-public
     associate_public_ip_address = true
